@@ -19,11 +19,11 @@ console.log('it eats')
     }
 
 }
-class Dog extends Animal{
+ class Dog extends Animal{
     constructor(sound="Woof"){
         super(sound)
        }
-}
+ } 
 class Cat extends Animal{
     constructor(sound='meow'){
         super(sound);
