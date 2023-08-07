@@ -1,8 +1,10 @@
-// function checkSet(arr){
-//     return [...new Set(arr)]
-// }
-// let a=checkSet.name="me";
-// console.log(checkSet([1,2,4,5,3,2,1]));
+//set
+
+function checkSet(arr){
+    return [...new Set(arr)]
+}
+let a=checkSet.name="me";
+console.log(checkSet([1,2,4,5,3,2,1]));
 
 
 class Animal{
