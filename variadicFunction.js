@@ -8,8 +8,6 @@
 // }
 // console.log(add(1,2,3,4,6))
 
-let check=(arr)=>{
-    
-    return arr.map(a=>a+1).sort((a,b)=>a-b)
-}
-console.log(check([8,1,7,3,4,5,6]))
+const check=(arr)=> arr.filter(a=>a%2==0).sort();
+
+console.log(check([8,1,4,5,9,6]))
