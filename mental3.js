@@ -7,8 +7,8 @@
 //the return value is Array
 function addLastName(...names) {
     if (names.length < 4) return 'Not enough names'
-    const thirdNames = names[2]
-    return names.filter((el)=>el!==thirdNames).map(name=>`${name} ${thirdNames}`)
+    const thirdNames = names.splice(2, 1).toString()
+    return names.map(name => `${name} ${thirdNames}`)
 }
 
 console.log(addLastName('fabi', 'ishimwe', 'olivier', 'agnes', 'hhh'))
