@@ -1,0 +1,1 @@
+function cT(str,...val){}
